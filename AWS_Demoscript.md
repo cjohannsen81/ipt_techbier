@@ -1,9 +1,9 @@
-## Please note that you have to replace the XXX things with your names.
-
 This demo was used to demonstrate the integration of AWS instances with you own (hosted) Chef Server.
 After downloading the basic ChefDK and signing up for the Chef Hosted server you go and configure the
 AWS connections and keys. Then you´ll write a cookbook, upload it to your Chef Server and create a
 new AWS instance that becomes a web server on Amazon linux.
+
+**Please note that you have to replace the XXX things with your names.**
 
 ## Chef Manage Account
 
