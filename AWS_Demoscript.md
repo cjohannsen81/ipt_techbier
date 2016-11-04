@@ -50,10 +50,10 @@ Use your AWS credentials
 Secret Access Key:
 Use your AWS credentials
 
-Default region name
+Default region name:
 eu-west-1
 
-Default output format
+Default output format:
 json
 
 ## Chef Starter Kit Installation
