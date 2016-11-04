@@ -10,6 +10,7 @@ https://downloads.chef.io/chef-dk/mac/
 
 (MAC)
 *brew install ec2-api-tools*
+
 *brew install awscli*
 
 ## Create your SSH Key
@@ -20,8 +21,10 @@ command (substitute your passphrase or leave it blank) and feel free to use a
 different file name:
 
 *cd ~/.ssh*
-*ssh-keygen -N ‘<passphrase>’ -f xxx_key*
-*ssh-add xxx_key*
+
+*ssh-keygen -N ‘<passphrase>’ -f **xxx_key***
+
+*ssh-add **xxx_key***
 
 ## Import your public key to EC2
 Importing your own public key is a great feature of AWS, but this has to be
@@ -32,7 +35,7 @@ to eu-west-1
 
 ## AWS Configure
 
-aws configure
+*aws configure*
 
 Access Key ID:
 Use your AWS credentials
