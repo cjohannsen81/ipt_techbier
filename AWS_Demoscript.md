@@ -22,7 +22,7 @@ different file name:
 
 *cd ~/.ssh*
 
-*ssh-keygen -N ‘<passphrase>’ -f xxx_key*
+*ssh-keygen -N ‘aPassword’ -f xxx_key*
 
 *ssh-add xxx_key*
 
