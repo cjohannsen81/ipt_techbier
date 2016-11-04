@@ -66,9 +66,13 @@ knife[:editor]="vi"
 ## Write a WebServer (Apache) cookbook
 
 *mkdir chef-repo/cookbooks*
+
 *cd chef-repo/cookbooks*
+
 *chef generate cookbook webserver*
+
 *cd webserver*
+
 *vi recipes/default.rb*
 
 ```
