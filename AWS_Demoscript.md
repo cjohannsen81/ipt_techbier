@@ -46,10 +46,13 @@ to eu-west-1
 
 Access Key ID:
 Use your AWS credentials
+
 Secret Access Key:
 Use your AWS credentials
+
 Default region name
 eu-west-1
+
 Default output format
 json
 
