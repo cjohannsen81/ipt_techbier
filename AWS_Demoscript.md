@@ -1,3 +1,5 @@
+## Please note that you have to replace the XXX things with your names.
+
 ## Chef Manage Account
 
 http://manage.chef.io
@@ -56,8 +58,8 @@ Download chef-repo/Chef Starter Kit from the Chef Server
 
 ## AWS Credentials in knife.rb
 ```
-knife[:aws_config_file] = "/Users/cjo/.aws/config"
-knife[:aws_credential_file] = "/Users/cjo/.aws/credentials"
+knife[:aws_config_file] = "/Users/XXX/.aws/config"
+knife[:aws_credential_file] = "/Users/XXX/.aws/credentials"
 ```
 ## Editor in knife.rb
 ```
