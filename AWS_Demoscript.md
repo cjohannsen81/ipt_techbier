@@ -22,16 +22,16 @@ different file name:
 
 *cd ~/.ssh*
 
-*ssh-keygen -N ‘<passphrase>’ -f **xxx_key***
+*ssh-keygen -N ‘<passphrase>’ -f xxx_key*
 
-*ssh-add **xxx_key***
+*ssh-add xxx_key*
 
 ## Import your public key to EC2
 Importing your own public key is a great feature of AWS, but this has to be
 done for each region you want to use it in. In the following step I will import
 to eu-west-1
 
-*ec2ikey xxx_key --region eu-west-1 --public-key-file ~/.ssh/***xxx_key.pub*** --aws-secret-key ***XXX*** --aws-access-key ***XXX****
+*ec2ikey xxx_key --region eu-west-1 --public-key-file ~/.ssh/***xxx_key.pub** --aws-secret-key ***XXX*** --aws-access-key ***XXX***
 
 ## AWS Configure
 
