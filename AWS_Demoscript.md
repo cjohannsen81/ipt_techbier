@@ -111,4 +111,4 @@ vi templates/index.html.erb
 
 ## Create instance and add cookbook
 
-*knife ec2 server create --node-name chef-node-xxx -r 'recipe[webserver]' --ssh-key ***xxx_key*** --identity-file ~/.ssh/***xxx_key*** --ssh-user ec2-user --image ami-c39604b0 --security-group-ids 'sg-48ddcd2c' --subnet subnet-b79e83d2 --flavor t2.micro --region eu-west-1 --associate-public-ip*
+*knife ec2 server create --node-name chef-node-xxx -r 'recipe[webserver]' --ssh-key xxx_key --identity-file ~/.ssh/xxx_key --ssh-user ec2-user --image ami-c39604b0 --security-group-ids 'sg-48ddcd2c' --subnet subnet-b79e83d2 --flavor t2.micro --region eu-west-1 --associate-public-ip*
